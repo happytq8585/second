@@ -1,0 +1,47 @@
+.citydata-top{
+    text-align: center;
+}
+.citydata-top select{
+    width:174px;
+    height:26px;
+}
+.citydata-top > span{
+    display: inline-block;
+    margin-right:20px;
+}
+.citydata-btn{
+    padding:20px 0;
+    border-bottom:1px solid #f3f3f3;
+}
+.citydata-btn>span{
+    display: inline-block;
+    width:80px;
+    height:32px;
+    background: #3172d9;
+    color: #fff;
+    cursor: pointer;
+    line-height: 32px;
+    margin:0 20px;
+}
+.citydata-table{
+    margin-top:20px;
+}
+.citydata-table .left:nth-of-type(1){
+    width:300px;
+    margin-right:80px;
+}
+.citydata-lefttable>p{
+    padding:10px 4px;
+    text-align: center;
+    margin:0;
+    border:1px solid #f3f3f3;
+    border-bottom:none;
+    cursor: pointer;
+}
+.citydata-lefttable>p:nth-last-of-type(1){
+    border-bottom:1px solid #f3f3f3;
+}
+.citydata-lefttable>p:hover{
+    background: #3172d9;
+    color: #fff;
+}

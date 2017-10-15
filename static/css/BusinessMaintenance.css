@@ -1,0 +1,136 @@
+.BusinessDel{
+    cursor: pointer;
+    color: #3172d9;
+}
+.BusinessAdd, .addpower, .EconomicsAdd, .FinanceAdd, .ContrastAdd{
+    cursor: pointer;
+}
+.addAlert{
+    display: none;
+}
+.delAlert{
+    display: none;
+}
+.addBox{
+    width:300px;
+    height:470px;
+    position: absolute;
+    top:100px;
+    left:0;
+    right:0;
+    margin:auto;
+    background: #fff;
+}
+.addBoxtop{
+    width:100%;
+    height:40px;
+    background: #f4f4f4;
+    line-height: 40px;
+    padding:0 10px;
+    margin-bottom:20px;
+}
+.addBoxbtn{
+    text-align: center;
+    margin-top:14px;
+}
+.addBoxbtn span{
+    display: inline-block;
+    width:80px;
+    height:28px;
+    border:1px solid #d3d3d3;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.addBoxbtn span:nth-of-type(1){
+    background: #3172d9;
+    color: #fff;
+}
+
+.addBox>p{
+    margin-bottom:14px;
+    padding:0 20px;
+}
+.addBox>p:nth-last-of-type(1){
+    margin-bottom:4px;
+}
+.addBox>p>span{
+    display: inline-block;
+}
+.addBox>p>span:nth-of-type(1){
+    width:80px;
+    text-align: right;
+}
+.addBox-word{
+    padding-left:100px;
+    height:20px;
+    color: red;
+}
+.addpower-input, .addpower-input1, .addpower-input2{
+    display: none;
+}
+.addpower-input span, .addpower-input1 span, .addpower-input2 span{
+    cursor: pointer;
+    padding:0 4px;
+}
+.authorize>span{
+    display: inline-block;
+    width:200px;
+    text-align: center;
+    padding:10px 0;
+}
+.authorize>p{
+    text-align: center;
+}
+.authorize>p>span{
+    display: inline-block;
+    width:80px;
+    height:32px;
+    border:1px solid #f3f3f3;
+    cursor: pointer;
+    margin:20px 40px;
+    text-align: center;
+    line-height: 32px;
+}
+.datainquiry div{
+    width:200px;
+    height:46px;
+    margin:20px;
+    border:1px solid #f3f3f3;
+    font-size: 16px;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+}
+.datainquiry div:hover{
+    background: #3172d9;
+}
+.datainquiry div:hover a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/Login.css">
+</head>
+<body>
+    {% raw xsrf_form_html() %}
+    <div class="Login">
+        <p class="Login-name">{{conf.index_title}}</p>
+        <div class="Login-center">
+            <img src="image/back.jpg" alt="">
+            <div class="Login-box">
+                <p>登录</p>
+                <span class="Login-word"></span>
+                <div>
+                    <input type="text" name="username" placeholder="请输入账号" onfocus="clearword()">
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="请输入密码" onfocus="clearword()">
+                </div>
+                <div>
+                    <input type="checkbox" value="rember" name="remember" onfocus="clearword()"> 记住密码
+                </div>
+                <div>
+                    <p class="Login-btn">登录</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.12.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Login.js"></script>
+</html>

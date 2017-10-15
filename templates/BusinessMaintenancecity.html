@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/jquery.cxcalendar.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/BusinessAll.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">副省级城市经济金融共享信息系统</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="./BusinessMaintenance.html">信息联络员管理 </a></li>
+                <li><a href="#">统计指标管理</a></li>
+                <li><a href="#">城市管理</a></li>
+                <li><a href="#">公告管理</a></li>
+                <li><a href="#">统计报表格式管理</a></li>
+                <li><a href="#">数据查询</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">修改密码</a></li>
+                <li><a href="#">退出</a></li>
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="InnerBox">
+    <div class="citydata-top">
+        <span>
+            时间
+            <input id="date_a" name="mydate" type="text" readonly>
+        </span>
+        <span>
+            选择城市
+            <select class="selectcity">
+                <option value ="城市1">城市1</option>
+                <option value ="城市2">城市2</option>
+                <option value ="城市3">城市3</option>
+                <option value ="城市4">城市4</option>
+            </select>
+        </span>
+        <span>
+            指标种类
+            <select class="selectindex">
+                <option value ="指标1">指标1</option>
+                <option value ="指标2">指标2</option>
+                <option value ="指标3">指标3</option>
+                <option value ="指标4">指标4</option>
+            </select>
+        </span>
+        <div class="citydata-btn">
+            <span class="sure-citydata">确定</span>
+            <span class="print-citydata">打印</span>
+        </div>
+    </div>
+    <div class="citydata-table">
+        <table class="table table-bordered">
+
+        </table>
+    </div>
+</div>
+
+</body>
+<script src="./js/jquery-1.12.1.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery.cxcalendar.min.js"></script>
+<script src="./js/BusinessCity.js"></script>
+</html>
